@@ -3,13 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Dog from './Dog';
 
 
 
-const Dog = () =>
-{
-    return 'Woof I am a dog!';
-}
 
 //ReactDOM.render(<Dog/>, document.getElementById('root') )
 
