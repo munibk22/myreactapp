@@ -4,8 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+
+const Dog = () =>
+{
+    return 'Woof I am a dog!';
+}
+
+//ReactDOM.render(<Dog/>, document.getElementById('root') )
+
 ReactDOM.render(
   <React.StrictMode>
+    <Dog />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
