@@ -1,16 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import ToDoList from './ToDoList';
+import Dog from './Dog';
+import Nbar from './Navbar';
+import Header from './Header';
+import Test from './Test'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+     <Nbar />
+      <Dog />
+      <Test />
+      <Header>
         
-      </header>
+         </Header>
+       
+        
+        
+      
     </div>
   );
 }

@@ -2,7 +2,7 @@
 
 const Dog = () =>
 {
-    return ('Woof I am a dog!');
+    return ('Woof I am a cat now!');
 }
 
 

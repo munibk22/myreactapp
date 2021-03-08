@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Dog from './Dog';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Nbar from './Navbar'
 
 
 
@@ -11,8 +13,7 @@ import Dog from './Dog';
 //ReactDOM.render(<Dog/>, document.getElementById('root') )
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Dog />
+  <React.StrictMode>   
     <App />
   </React.StrictMode>,
   document.getElementById('root')
