@@ -37,6 +37,12 @@ todo.complete = !todo.complete
 setTodos(newTodos)
 
 }
+
+let handleClearEvent= ()=>
+{
+    let newTodos = todos.filter(todo => !todo.complete)
+    setTodos(newTodos)
+}
     return (
         <>
         <header className="App-header">
@@ -48,8 +54,8 @@ setTodos(newTodos)
 >Add ToDO</button>
 
 
-<button>Clear Completed T</button>
-<div>0 left to do</div>
+<button onClick={handleClearEvent}>Clear Completed T</button>
+<div>{todos.filter(todo => !todo.complete).length} left to do</div>
               
       </header>
       </>
